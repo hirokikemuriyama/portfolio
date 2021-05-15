@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="hamburger_menu">
+                <ul>
+                    <li class="menu_item"><a href="#about">自己紹介</a></li>
+                    <li class="menu_item"><a href="#skill">スキル</a></li>
+                    <li class="menu_item"><a href="#service">サービス</a></li>
+                    <li class="menu_item"><a href="#works">作品</a></li>
+                    <li class="menu_item"><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </div>
+            <h1 class="header_title">portfolio</h1>
+    </header>
+    
+    <main>
+        <section class="about_wrapper inner" id="about">
+            <h2 class="heading">自己紹介</h2>
+            <div class="about_text">
+                <p class="description">はじめまして。<br>秋田県でWEB制作をしている<span>煙山寛樹</span>と申します。<br>生まれ育って現在も住まわせていただいている、ふるさと秋田に貢献する方法を考えていましたところ、企業様のホームページを作成して、秋田県の活気を全国に伝えるという解にいたりました。<br>認知度を上げ、売上を伸ばしたい企業様がおられましたら、ぜひともご依頼ください。</p>
+            </div>
+        </section>
+
+        <!-- -------------------------------------------------- -->
+        <section class="skill_wrapper inner" id="skill">
+            <h2 class="heading">スキル</h2>
+            <div class="skill_container">
+                <div class="skill_content">
+                    <div class="skill_image">
+                        <img src="image/html.png" alt="HTML icon">
+                    </div>
+                    <div class="skill_text">
+                        <h3 class="skill_title">HTML</h3>
+                        <p class="skill_level">【できること】<br>・SEOを意識したタグの使用</p>
+                    </div>
+                </div>
+                <div class="skill_content">
+                    <div class="skill_image">
+                        <img src="image/css.png" alt="CSS icon">
+                    </div>
+                    <div class="skill_text">
+                        <h3 class="skill_title">CSS</h3>
+                        <p class="skill_level">【できること】<br>・ドロワーメニューの表示<br>・ハンバーガーメニューのアニメーション<br>・擬似要素と擬似クラスの使用</p>
+                    </div>
+                </div>
+                <div class="skill_content">
+                    <div class="skill_image">
+                        <img src="image/jquery.png" alt="JS icon">
+                    </div>
+                    <div class="skill_text">
+                        <h3 class="skill_title">jQuery</h3>
+                        <p class="skill_level">【できること】<br>・ボタンを押すとトップページにスクロールする機能<br>・クリックで開閉するアコーディオンメニュー<br>・WOWプラグインを使ったスクロールアニメーション<br>・Slickプラグインを使ったカルーセルメニュー</p>
+                    </div>
+                </div>
+                <div class="skill_content">
+                    <div class="skill_image">
+                        <img src="image/wordpress.png" alt="wordpress icon">
+                    </div>
+                    <div class="skill_text">
+                        <h3 class="skill_title">WordPress</h3>
+                        <p class="skill_level">【できること】<br>・お問い合わせフォームの作成<br>・カテゴリーとタグごとの表示<br>・ページャーとパンくずリストの設置</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ------------------------------------------------------ -->
+
+        <section class="service_wrapper inner" id="service">
+            <h2 class="heading">サービス</h2>
+            <div class="service_container">
+                <div class="service_content">
+                    <div class="service_image">
+                        <img src="img\coding.png" alt="coding icon">
+                    </div>
+                    <div class="service_text">
+                        <h3 class="service_title">コーディング</h3>
+                        <p>丁寧にヒヤリングをおこない、ご要望のサイトに低価格で仕上げます。</p>
+                    </div>
+                </div>
+                <div class="service_content">
+                    <div class="service_image">
+                        <img src="img\pc.png" alt="pc icon">
+                    </div>
+                    <div class="service_text">
+                        <h3 class="service_title">WordPress移行</h3>
+                        <p>サイトをwordpressで低価格で運用できるようにいたします。</p>
+                    </div>
+                </div>
+                <div class="service_content">
+                    <div class="service_image">
+                        <img src="img\phone.png" alt="phone icon">
+                    </div>
+                    <div class="service_text">
+                        <h3 class="service_title">レスポンシブ対応</h3>
+                        <p>サイトをスマートフォン用のデザインに低価格で対応させます。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------------------------------------------- -->
+
+        <section class="works_wrapper inner" id="works">
+            <h2 class="heading">作品</h2>
+            <div class="works_container">
+                <div class="works_content">
+                    <a href="/">
+                        <img src="image/works_1.png" alt="works">
+                        <div class="mask">
+                            <p class="caption">わたし自身のポートフォリオサイトです</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="works_content">
+                    <a href="https://yhwh-jb.net/">
+                        <img src="image/works_2.png" alt="works">
+                        <div class="mask">
+                            <p class="caption">自作したサイトをWordPressに移行しました。<br>プラグインを使ってパンくずリスト等を実装しています。</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ------------------------------------------------- -->
+
+        <section class="contact_wrapper inner" id="contact">
+            <h2 class="heading">お問い合わせ</h2>
+            <div class="contact_container">
+            <div class="contact_btn"><a href="https://forms.gle/QuAwAeUBZvme6ddD6">お問い合わせはこちら</a></div>
+            </div>
+        </section>
+
+        <!-- ----------------------------------------------------- -->
+
+    <footer>
+        <small class="copy_right">© 2021 HIRO</small>
+        <div id="page_top"><a href="#"></a></div>
+    </footer>
+</body>
+</html>
