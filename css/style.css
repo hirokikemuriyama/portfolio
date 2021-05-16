@@ -186,7 +186,7 @@ header::after {
 }
 
 .skill_wrapper {
-  background-image: url(image/skill.jpg);
+  background-image: url(../image/skill.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -295,7 +295,7 @@ header::after {
 }
 
 .works_wrapper {
-  background-image: url(image/works.jpg);
+  background-image: url(../image/works.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
